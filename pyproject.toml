@@ -1,22 +1,12 @@
 [project]
-<<<<<<< HEAD
-name = "corey-request-toy"
+name = "pote"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "flask>=3.1.1",
     "lxml-html-clean>=0.4.2",
-    "manim>=0.19.0",
-=======
-name = "pote"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "lxml-html-clean>=0.4.2",
->>>>>>> 2372a1de8ed0d2e67a42eecfe4ef70c6b45a4700
     "requests-html>=0.10.0",
+    "selenium>=4.34.0",
+    "webdriver-manager>=4.0.2",
 ]
